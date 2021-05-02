@@ -1,0 +1,199 @@
+:root {
+  --main-text: #212121;
+  --secondary-text: #757575;
+  --text-hover: #2196f3;
+  --color-logos: #2196f3;
+  --buttons-text: #212121;
+  --buttons-text-active: #ffffff;
+  --buttons-main-bcg: #f5f4fa;
+  --buttons-active-bcg: #2196f3;
+  --footer-contacts: rgba(255, 255, 255, 0.6);
+}
+body {
+  background-color: gainsboro;
+  color: #212121;
+  font-family: Roboto, sans-serif;
+}
+ul {
+  list-style: none;
+}
+/*INDEX-html-page*/
+.main-title-index {
+  color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+.button-index {
+  color: #ffffff;
+  background-color: #2196f3;
+  cursor: pointer;
+}
+.lower-titles-index {
+  color: var(--main-text);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.secondary-text-index {
+  color: var(--secondary-text);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.bottom-titles-index {
+  color: var(--main-text);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.our-names {
+  color: var(--main-text);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.names-discription {
+  color: var(--secondary-text);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/*PORTFOLIO-NAV*/
+.logo {
+  color: var(--color-logos);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.accent-logo {
+  color: #212121;
+}
+.accent-white {
+  color: #ffffff;
+}
+.site-nav .link {
+  color: var(--main-text);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-nav .link.current {
+  color: var(--text-hover);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--text-hover);
+}
+/*header contacts*/
+.header-cont .link {
+  color: #757575;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.header-cont .link:focus,
+.header-cont .link:hover {
+  color: #2196f3;
+}
+/*main-buttons*/
+.hidden-elements {
+  display: none;
+}
+.buttons {
+  color: var(--buttons-text);
+  background: var(--buttons-main-bcg);
+  cursor: pointer;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.buttons.active:hover,
+.buttons.active:focus {
+  color: var(--buttons-text-active);
+  background: var(--buttons-active-bcg);
+  cursor: pointer;
+}
+/*main-content-list*/
+.port-titles {
+  color: var(--main-text);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.port-texts {
+  color: var(--secondary-text);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+/*footer*/
+.footer-adress {
+  color: var(--buttons-text-active);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+}
+.footer-adress:hover,
+.footer-adress:focus {
+  color: var(--text-hover);
+  text-decoration: none;
+}
+.footer-contact {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+}
+.footer-contact:hover,
+.footer-contact:focus {
+  color: var(--text-hover);
+}
