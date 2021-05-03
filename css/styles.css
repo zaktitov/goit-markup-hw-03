@@ -47,23 +47,43 @@ p {
 }
 
 .main-title-index {
+  padding-top: 200px;
+
   color: #ffffff;
-  font-family: Roboto;
+  font-family: inherit;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .button-index {
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  margin-top: 30px;
+  margin-bottom: 200px;
+
   color: #ffffff;
   background-color: #2196f3;
   cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.what-we-doing-section {
+  background-color: #2f303a;
+  min-height: 600px;
+  text-align: center;
 }
 
 .lower-titles-index {
   color: var(--main-text);
-  font-family: Roboto;
+  font-family: inherit;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -74,7 +94,7 @@ p {
 
 .secondary-text-index {
   color: var(--secondary-text);
-  font-family: Roboto;
+  font-family: inherit;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -84,7 +104,7 @@ p {
 
 .bottom-titles-index {
   color: var(--main-text);
-  font-family: Roboto;
+  font-family: inherit;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -95,7 +115,7 @@ p {
 
 .our-names {
   color: var(--main-text);
-  font-family: Roboto;
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -106,7 +126,7 @@ p {
 
 .names-discription {
   color: var(--secondary-text);
-  font-family: Roboto;
+  font-family: inherit;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -151,7 +171,7 @@ p {
 
 .site-nav .link {
   color: var(--main-text);
-  font-family: Roboto;
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -182,7 +202,7 @@ p {
 
 .header-contacts .link {
   color: #757575;
-  font-family: Roboto;
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -205,7 +225,7 @@ p {
   color: var(--buttons-text);
   background: var(--buttons-main-bcg);
   cursor: pointer;
-  font-family: Roboto;
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -224,7 +244,7 @@ p {
 /*main-content-list*/
 .port-titles {
   color: var(--main-text);
-  font-family: Roboto;
+  font-family: inherit;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -234,7 +254,7 @@ p {
 
 .port-texts {
   color: var(--secondary-text);
-  font-family: Roboto;
+  font-family: inherit;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -245,7 +265,7 @@ p {
 /*footer*/
 .footer-adress {
   color: var(--buttons-text-active);
-  font-family: Roboto;
+  font-family: inherit;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -261,7 +281,7 @@ p {
 
 .footer-contact {
   color: rgba(255, 255, 255, 0.6);
-  font-family: Roboto;
+  font-family: inherit;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
