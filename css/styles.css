@@ -82,7 +82,23 @@ p {
   text-align: center;
 }
 
+.ourfeatures-section {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.features .elemnt {
+  width: 270px;
+}
 .lower-titles-index {
+  margin-top: 94px;
+
   color: var(--main-text);
   font-family: inherit;
   font-style: normal;
@@ -94,6 +110,8 @@ p {
 }
 
 .secondary-text-index {
+  margin-top: 10px;
+
   color: var(--secondary-text);
   font-family: inherit;
   font-style: normal;
