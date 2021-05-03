@@ -9,15 +9,43 @@
   --buttons-active-bcg: #2196f3;
   --footer-contacts: rgba(255, 255, 255, 0.6);
 }
+
 body {
   background-color: gainsboro;
   color: #212121;
   font-family: Roboto, sans-serif;
 }
+
 ul {
   list-style: none;
+  /*outline: 1px seagreen solid;**/
+  margin: 0px;
+  padding: 0px;
 }
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0px;
+  padding: 0px;
+  outline: 1px seagreen solid;
+}
+
 /*INDEX-html-page*/
+.header-container {
+  width: 1200px;
+  min-height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 35px;
+  padding-top: 30px;
+}
+
 .main-title-index {
   color: #ffffff;
   font-family: Roboto;
@@ -26,11 +54,13 @@ ul {
   font-size: 44px;
   line-height: 1.36;
 }
+
 .button-index {
   color: #ffffff;
   background-color: #2196f3;
   cursor: pointer;
 }
+
 .lower-titles-index {
   color: var(--main-text);
   font-family: Roboto;
@@ -41,6 +71,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 .secondary-text-index {
   color: var(--secondary-text);
   font-family: Roboto;
@@ -50,6 +81,7 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+
 .bottom-titles-index {
   color: var(--main-text);
   font-family: Roboto;
@@ -60,6 +92,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 }
+
 .our-names {
   color: var(--main-text);
   font-family: Roboto;
@@ -70,6 +103,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 }
+
 .names-discription {
   color: var(--secondary-text);
   font-family: Roboto;
@@ -80,8 +114,15 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 }
+
+.footer {
+  background-color: #2f303a;
+}
+
 /*PORTFOLIO-NAV*/
 .logo {
+  margin-right: 90px;
+
   color: var(--color-logos);
   font-family: Raleway;
   font-style: normal;
@@ -90,12 +131,24 @@ ul {
   line-height: 1.19;
   text-decoration: none;
 }
+
 .accent-logo {
   color: #212121;
 }
+
 .accent-white {
   color: #ffffff;
 }
+
+.site-nav {
+  display: flex;
+  display: inline-block;
+}
+
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .site-nav .link {
   color: var(--main-text);
   font-family: Roboto;
@@ -106,15 +159,28 @@ ul {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+
 .site-nav .link.current {
   color: var(--text-hover);
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--text-hover);
 }
+
 /*header contacts*/
-.header-cont .link {
+.header-contacts {
+  display: flex;
+  margin-left: auto;
+  margin-top: 5px;
+}
+
+.header-contacts .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header-contacts .link {
   color: #757575;
   font-family: Roboto;
   font-style: normal;
@@ -124,14 +190,17 @@ ul {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.header-cont .link:focus,
-.header-cont .link:hover {
+
+.header-contacts .link:focus,
+.header-contacts .link:hover {
   color: #2196f3;
 }
+
 /*main-buttons*/
 .hidden-elements {
   display: none;
 }
+
 .buttons {
   color: var(--buttons-text);
   background: var(--buttons-main-bcg);
@@ -144,12 +213,14 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 }
+
 .buttons.active:hover,
 .buttons.active:focus {
   color: var(--buttons-text-active);
   background: var(--buttons-active-bcg);
   cursor: pointer;
 }
+
 /*main-content-list*/
 .port-titles {
   color: var(--main-text);
@@ -160,6 +231,7 @@ ul {
   line-height: 2;
   letter-spacing: 0.06em;
 }
+
 .port-texts {
   color: var(--secondary-text);
   font-family: Roboto;
@@ -169,6 +241,7 @@ ul {
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
+
 /*footer*/
 .footer-adress {
   color: var(--buttons-text-active);
@@ -179,11 +252,13 @@ ul {
   line-height: 1.71;
   text-decoration: none;
 }
+
 .footer-adress:hover,
 .footer-adress:focus {
   color: var(--text-hover);
   text-decoration: none;
 }
+
 .footer-contact {
   color: rgba(255, 255, 255, 0.6);
   font-family: Roboto;
@@ -193,6 +268,7 @@ ul {
   line-height: 1.71;
   text-decoration: none;
 }
+
 .footer-contact:hover,
 .footer-contact:focus {
   color: var(--text-hover);
