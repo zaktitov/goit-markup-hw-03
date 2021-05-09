@@ -31,7 +31,7 @@ h4,
 p {
   margin: 0px;
   padding: 0px;
-  outline: 1px seagreen solid;
+  /*outline: 1px seagreen solid;*/
 }
 
 /*INDEX-html-page*/
@@ -86,22 +86,26 @@ p {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 94px;
 }
 
 .features {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .features .elemnt {
-  width: 270px;
+  width: calc((100%-90px) / 5);
+  margin-right: 30px;
+}
+.features .elemnt:last-child {
+  margin-right: 0px;
 }
 .lower-titles-index {
   margin-top: 94px;
 
   color: var(--main-text);
   font-family: inherit;
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -114,14 +118,21 @@ p {
 
   color: var(--secondary-text);
   font-family: inherit;
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
+.our-tasks-section {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 94px;
+}
 .bottom-titles-index {
+  margin-bottom: 50px;
+
   color: var(--main-text);
   font-family: inherit;
   font-style: normal;
@@ -132,10 +143,61 @@ p {
   letter-spacing: 0.03em;
 }
 
-.our-names {
+.our-tasks {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 30px;
+  justify-content: center;
+}
+
+.our-tasks .item {
+  display: flex;
+}
+
+.our-tasks:last-child {
+  margin-right: 0px;
+}
+/*===================OUR TEAM SECTION==============*/
+.our-team-section {
+  background-color: #f5f4fa;
+}
+
+.our-team-section-title {
+  margin-bottom: 50px;
+  padding-top: 94px;
+
   color: var(--main-text);
   font-family: inherit;
   font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.our-team-section-container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.our-team-section .list {
+  display: flex;
+}
+
+.our-team-section .item {
+  margin-right: 30px;
+}
+.our-team-section:last-child {
+  margin-right: 0px;
+}
+
+.our-names {
+  margin-bottom: 10px;
+
+  color: var(--main-text);
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -143,22 +205,41 @@ p {
   letter-spacing: 0.03em;
 }
 
+.our-team-section .image {
+  margin-bottom: 30px;
+}
+
 .names-discription {
+  margin-bottom: 30px;
+
   color: var(--secondary-text);
   font-family: inherit;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
 }
+/*=================FOOTER================*/
 
 .footer {
   background-color: #2f303a;
+  min-height: 252px;
 }
 
-/*PORTFOLIO-NAV*/
+.footer-container {
+  width: 1200px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.foot {
+  padding-top: 10px;
+}
+
+/*================PORTFOLIO-NAV========================*/
 .logo {
   margin-right: 90px;
 
@@ -283,6 +364,8 @@ p {
 
 /*footer*/
 .footer-adress {
+  padding-top: 20px;
+
   color: var(--buttons-text-active);
   font-family: inherit;
   font-style: normal;
