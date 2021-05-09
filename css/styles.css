@@ -76,6 +76,13 @@ p {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
+.button-index:hover,
+.button-index:focus {
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
 .what-we-doing-section {
   background-color: #2f303a;
   min-height: 600px;
