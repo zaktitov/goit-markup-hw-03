@@ -196,7 +196,7 @@ p {
 .features {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .features .elemnt {
   width: calc((100% - 90px) / 4);
