@@ -253,6 +253,9 @@ p {
 
 .our-tasks-list {
   display: flex;
+  justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .our-tasks-item {
@@ -289,6 +292,9 @@ p {
 
 .our-team-section-list {
   display: flex;
+  justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .ourteam-card {
