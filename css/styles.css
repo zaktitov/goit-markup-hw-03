@@ -100,12 +100,12 @@ p {
   text-decoration: none;
 }
 
-.site-nav .link.current {
+.site-nav-item .link.current {
   color: var(--text-hover);
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav-item .link:hover,
+.site-nav-item .link:focus {
   color: var(--text-hover);
 }
 
