@@ -82,15 +82,15 @@ p {
   color: #ffffff;
 }
 
-.site-nav {
+.site-nav-list {
   display: flex;
 }
 
-.site-nav .item:not(:last-child) {
+.site-nav-item:not(:last-child) {
   margin-right: 50px;
 }
 
-.site-nav .link {
+.site-nav-item .link {
   color: var(--main-text);
   font-family: inherit;
   font-weight: 500;
