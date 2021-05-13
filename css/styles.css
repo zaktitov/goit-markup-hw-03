@@ -465,7 +465,7 @@ p {
 }
 
 .portfolio-card-set-item {
-  flex-basis: calc(100% / 3 - var(--margin-card-set));
+  flex-basis: calc((100% - 3 * var(--margin-card-set)) / 3);
   margin-left: var(--margin-card-set);
   margin-top: var(--margin-card-set);
 }
